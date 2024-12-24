@@ -1,0 +1,67 @@
+body {
+    font-family:sans-serif;
+    color: #222;
+}
+
+input {
+    border-radius: 8px;
+    border: none;
+    padding: 6px 16px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    padding: 4px 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #79a8a9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-area {
+    background-color: #00ff00;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 10px;
+    width: 400px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.incomplete-area {
+    border: 2px solid #aacfd0;
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #f0c0c0;
+    
+}
+
+.complete-area {
+    border: 2px solid #aacfd0;
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #c0f0c0;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.list-row {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item{
+    margin:6px;
+
+}
